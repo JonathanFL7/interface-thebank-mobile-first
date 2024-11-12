@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 45px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .menu a {
+        font-size: 15px;
+        padding: 11px 7px;
+    }
+
+    .menu .cadastrar {
+        display: inline-block;
+        padding: 10px 21px;
+    }
+
+}
