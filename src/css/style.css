@@ -5,9 +5,10 @@
         align-items: center;
         padding: 50px 45px;
     }
-
+    
     .logo {
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .logo h1 {
