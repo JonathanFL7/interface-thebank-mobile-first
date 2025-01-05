@@ -1,33 +1,32 @@
-@media (min-width: 768px) {
+@media (min-width: 930px) {
     .header {
         flex-direction: row;
+        align-items: flex-start;
         justify-content: space-between;
-        align-items: center;
-        padding: 50px 45px;
-    }
-    
-    .logo {
-        margin-top: 0;
-        margin-bottom: 0;
+        padding: 30px 45px;
+        height: auto;
     }
 
     .logo h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .menu {
         flex-direction: row;
-        gap: 30px;
+    }
+
+    .menu li {
+        padding-left: 2em;
+        padding-bottom: 0;
     }
 
     .menu a {
         font-size: 15px;
-        padding: 11px 7px;
+        padding: 10px;
     }
 
     .menu .cadastrar {
-        display: inline-block;
-        padding: 10px 21px;
+        padding: 15px 20px;
     }
 
 }
