@@ -1,32 +1,33 @@
-@media (min-width: 930px) {
+@media (min-width: 768px) {
     .header {
         flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        padding: 30px 45px;
+        padding: 30px;
         height: auto;
     }
 
     .logo h1 {
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     .menu {
         flex-direction: row;
+        align-items: center;
     }
 
     .menu li {
-        padding-left: 2em;
-        padding-bottom: 0;
+        padding-left: 1.3em;
+        margin-top: 0;
     }
 
-    .menu a {
-        font-size: 15px;
+    .menu li a{
+        font-size: 1.5rem;
         padding: 10px;
     }
 
-    .menu .cadastrar {
-        padding: 15px 20px;
+    .menu li a.cadastrar {
+        display: inline;
+        padding: 15px;
+        font-size: 1.5rem;
     }
 
 }
